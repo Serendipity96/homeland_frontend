@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter  from 'vue-router'
-import Essay from '../components/essay/essay'
-import Record from '../components/record/record'
+import EssayList from '../components/essay/essayList'
+import EssayDetail from '../components/essay/detail'
+import EssayEdit from '../components/essay/edit'
 
 Vue.use(VueRouter)
 
@@ -12,12 +13,16 @@ const routes = [
     },
     {
         path: '/essay',
-        component: Essay
+        component: EssayList
     },
     {
-        path: '/record',
-        component: Record
-    }
+        path: '/essay/detail/:id',
+        component: EssayDetail
+    },
+    {
+        path: '/essay/edit',
+        component: EssayEdit
+    },
 ]
 
 export  default new VueRouter ({

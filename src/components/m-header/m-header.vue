@@ -21,6 +21,7 @@
         height: 100px;
         line-height: 100px;
         display: flex;
+        border:1px solid @color-text-highlight;
         .logo,.login{
             width: 150px;
             text-align: center;

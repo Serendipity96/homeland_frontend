@@ -3,9 +3,6 @@
         <router-link tag="div" class="tab-item" to="/essay">
             <span class="tab-word">文章</span>
         </router-link>
-        <router-link tag="div" class="tab-item" to="/record">
-            <span class="tab-word">记录</span>
-        </router-link>
     </div>
 </template>
 
